@@ -1,0 +1,7 @@
+untracked: git rm --cashed [filename] This untracks a file.
+modified: Edit the file. Without adding this modified file back into the repository, this file is considered modified.
+staged: git add [filename] AFTER modifying the file. This makes the file staged.
+in repo:
+  git add [filename]
+  git commit
+  git push origin [repository]
